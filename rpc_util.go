@@ -43,7 +43,8 @@ import (
 
 const (
 	// PATCH: increase the encoding size limit to 30gb
-	encodeLimit = 30 * 1024 * 1024 * 1024 // 30gb
+//	encodeLimit = 30 * 1024 * 1024 * 1024 // 30gb
+	encodeLimit = 24 // testing
 )
 
 // Compressor defines the interface gRPC uses to compress a message.
